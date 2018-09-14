@@ -74,8 +74,9 @@ background-attachment: fixed;
 /*CSS_math*/
 #outils .card{
 	border-radius: 5%;
-	background-color: rgba(255, 255, 255,0.6);
+	background-color: rgba(255, 255, 255,0.3);
 }
+
 .imgoutils 
 {
     display: block;
@@ -109,6 +110,7 @@ background-attachment: fixed;
 .titlecard 
 {
     text-align: center;
+    margin-top: 2rem;
 }
 .textoutils 
 {

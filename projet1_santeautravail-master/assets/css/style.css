@@ -1,0 +1,221 @@
+
+/*CSS*/
+
+/*background*/
+body{
+background-image: url(http://image.noelshack.com/fichiers/2018/37/4/1536851737-grunge-wall.png);
+background-attachment: fixed;
+
+}
+.container{
+	background-color: rgb(0, 0, 0,0.1)
+}
+/*header*/
+.pictureBanniere{
+	margin-left: -5%;
+	min-height: 100%;
+	margin-top: 3.5rem;
+	min-width: 105vw;
+}
+.presentation{
+	text-align : center;
+}
+.navbar-bar{
+	margin-left: 0%
+	margin-right:0%;
+}
+/*presentation*/
+.text_presentation{
+	text-align: justify;
+}
+ 
+/*CSS_alicia*/
+/*activites*/
+#activity{
+	margin-bottom: 15%;
+
+}
+#activity h2{
+	font-size: 3em;
+	text-align: center;
+	margin-top: 15%;
+}
+#activity img {
+	max-height: 30vh; 
+	max-width: 30vw;
+	min-height: 200px;
+	min-width: 200px;
+	border-radius: 100%;
+}
+#activity h3 {
+	font-size: 1em;
+	text-align: center;
+
+}
+#activity .btn-light{
+	border-radius: 100%;
+	margin-top: 50%;
+}
+#activity h4 {
+	position: absolute;
+	margin-top: 25%;
+	margin-bottom: 10%;
+	text-align: center;
+}
+#activity br {
+	margin-bottom: 5%;
+}
+
+#activity .modal-body{
+	font-size: 1.2em;
+}
+
+
+/*CSS_math*/
+#outils .card{
+	border-radius: 5%;
+	background-color: rgba(255, 255, 255,0.6);
+}
+.imgoutils 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    border-radius: 100%;
+}
+.gymball
+{
+    background-color: #71d8f7;
+}
+.waterbottle
+{
+    background-color: yellow;
+}
+.cardPresentation 
+{
+    display: block;
+    margin-top: 4rem;
+    border-color: transparent;
+}
+.tapisroulant
+{
+    background-color: #5dfc6f;
+}
+.ministepper
+{
+    background-color: orange;
+}
+.titlecard 
+{
+    text-align: center;
+}
+.textoutils 
+{
+    text-align: justify;
+}
+
+/*CSS_helene*/
+
+/*testimony*/
+
+@media screen and (max-width: 600px) {
+	.video {
+		display: none;
+	}
+}
+
+.signature{	
+	color:grey;
+	text-align: right;
+}
+
+#temoignages{
+	margin-top:100px;
+}
+
+.section_temoignages{
+	margin-top:100px;
+}
+.testimony_line1{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.testimony_line2{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.testimony_text{
+	text-align: justify;
+}
+
+iframe{margin-top: 30px;}
+
+
+
+
+/*formulaire*/
+#contact{
+	margin-top:100px;
+}
+
+.form-group{
+	margin-top: 30px;
+}
+
+
+/*footer*/
+footer {
+	margin-top:100px;
+}
+footer a { 
+	text-align: center;
+	color: black; 
+}
+
+/*#temoignages{
+	background-color: rgba(255, 255, 255,0.5)
+}*/
+#temoignages .card{
+	border-radius: 5%;
+	background-color: rgba(255, 255, 255,0.3);
+}
+
+/*contact*/
+#contact{
+	margin-top:100px;
+	max-width: 640px;
+	text-align: center;
+	margin-bottom: -5%
+}
+form{
+	margin-bottom: 5%;
+}
+
+.form-group{
+	margin-top: 30px;
+}
+
+.button_message {
+	text-align: center;
+	border-radius: 100%;
+
+}
+
+
+/*footer*/
+footer img{
+	max-width: 5vw;
+	max-height: 5vh;
+}
+
+footer a { 
+	text-align: center;
+	color: white; 
+}
+
+.card_footer{
+	background-color: black;
+	margin-top: 3%;
+}

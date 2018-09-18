@@ -3,11 +3,11 @@
 
 /*background*/
 body{
-background-image: url(http://image.noelshack.com/fichiers/2018/37/4/1536851737-grunge-wall.png);
-background-attachment: fixed;
+/*background-image: url(http://image.noelshack.com/fichiers/2018/37/4/1536851737-grunge-wall.png);
+*/background-attachment: fixed;
 font-family: 'Alegreya Sans', sans-serif;
 font-size: x-large;
-line-height: 90%
+line-height: 98%;
 }
 h1{
 	margin-bottom: 10%;
@@ -20,7 +20,7 @@ h2{
 
 }
 
-.container{
+/*.container{
 	background-color: rgb(0, 0, 0,0.1)
 }
 /*header*/
@@ -113,13 +113,13 @@ h2{
 }
 .card {
     /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0px 8px 0 rgba(0,0,0,0.1);
     transition: 0.3s;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0px 12px 0 rgba(0,0,0,0.2);
 }
 .imgoutils 
 {
@@ -127,6 +127,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     margin-top:40px;
+    margin-bottom: 40px;
     border-radius: 100%;
 }
 .gymball

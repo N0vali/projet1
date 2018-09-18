@@ -399,7 +399,7 @@
 	  
 	  <section id="outils" class="outils">
 	  	<!--Section outils-->
-	  	<h2 style="text-align: center; ">Les outils utiles</h2>
+	  	<h2 class="tittleoutils">Les outils utiles</h2>
 
 	  	<div class="card-deck">
 
@@ -454,7 +454,7 @@
 	 
 
 	 
-	    <!--Section Temoignages-->
+<!--Section Temoignages-->
 	  <!-- Vidéo -->
 	  <section id="temoignages">
     	<h2 class="text-center">Ils ont testés !</h2>
@@ -469,12 +469,12 @@
 	  			<div class="card">
 	  				<div class="card-body">
 	  					<div>
-	  						<h5 class="testimony_line1">Utilisation du Swiss Ball</h5>
+	  						<h5 class="testimony_line1 testimony">Utilisation du Swiss Ball</h5>
 	  						<p class="testimony_text">Le Gym Ball est un vrai entraînement physique. Les journées ne sont pas de tout repos ! Mais, en ce qui me concerne, aucunes douleurs ou courbatures à signaler. La position est vraiment agréable et, les jours passant, je deviens addict à cette nouvelle assise. Je recommande vivement cet article !</p>
 	  						<p class="signature">Hélène B.</p>
 	  					</div>
 	  					<div>
-	  						<h5 class="testimony_line2">Utilisation d'une bouteille en guise d'haltère</h5>
+	  						<h5 class="testimony_line2 testimony">Utilisation d'une bouteille en guise d'haltère</h5>
 	  						<p class="testimony_text">J'utilise chaque jour ma bouteille d'eau comme haltère. C'est très pratique car on a toujours une bouteille sous la main. Je peux ainsi muscler mes bras à n'importe quel moment de la journée et me désaltérer en même temps !</p>
 	  						<p class="signature">Mathieu H.</p>
 	  					</div>              
@@ -485,13 +485,13 @@
 	  			<div class="card">
 	  				<div class="card-body">
 	  					<div>
-	  						<h5 class="testimony_line1">Les étirements</h5>
+	  						<h5 class="testimony_line1 testimony">Les étirements</h5>
 	  						<p class="testimony_text">Etant toute la journée assise face à mon bureau, j’essaye de faire des étirements des jambes et des bras, une séance le matin et une l'après-midi pendant 10 minutes. C’est un moment qui me permet de me recentrer sur moi-même et éviter les courbatures en fin de journée liées à une position assise continuelle.</p>
 	  						<p class="signature">Alicia P.</p>
 	  					</div>
 	  					<div>
-	  						<h5 class="testimony_line2">Placer son imprimante loin de son bureau</h5>
-	  						<p class="testimony_text">J'ai installé mon imprimante à l'opposé de mon bureau pour m'obliger à me lever à chaque impression. Je m'oblige donc à me lever et à marcher. C'est tout simple mais à la fin de chaque journée je me sens mieux car je ne suis pas en position statique toute la journée.</p>
+	  						<h5 class="testimony_line2 testimony">Placer son imprimante loin de son bureau</h5>
+	  						<p class="testimony_text">J'ai installé mon imprimante à l'opposé de mon bureau pour me lever à chaque impression. Je m'oblige donc à me lever et à marcher. A la fin de chaque journée je me sens mieux car je ne suis pas en position statique toute la journée.</p>
 	  						<p class="signature">Billy V.</p>
 	  					</div>              
 	  				</div>
@@ -499,52 +499,46 @@
 	  		</div>
 	  	</div>
 	  </section>
-
-
-
-
-	   <!-- Contact -->
-    <section class="mx-auto" id="contact">
-      <form>
-        <h2 align="center">Contactez nous !</h2>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Prénom</label>
-              <input type="text" class="form-control shadow" placeholder="Nicolas">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Nom</label>
-              <input type="text" class="form-control shadow" placeholder="Deschamps">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Email</label>
-              <input type="Email" class="form-control shadow" placeholder="kikooooooleplusfort95@gmail.com">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control shadow" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <div class="button button_message">
-              <button type="button" class="btn btn-secondary btn-sm">Envoyer votre message</button>
-          </div>
-      </form>
-      <br/>
-    </section>
   </div>
 
 
-<!-- Footer -->       
-    <footer class="card card_footer">
+<!-- contact-Footer -->       
+    <footer class="card card_footer text-light">
       <div class="card-header">
         <div class="row">
-          <div class="col-md-10">
-            <a href="">Mentions Légales</a>                
-          </div> 
-          <div class="col-md-2">
+          <div class="col-md-6">
             <a href="" class="social"><img class="social_networks" src="http://image.noelshack.com/fichiers/2018/37/5/1536913178-facebook.png"></a>
             <a href=""><img class="social_networks" src="http://image.noelshack.com/fichiers/2018/37/5/1536913173-twitter.png"></a>                 
-          </div>
+      	  </div>         
+          <div id="contact" class="col-md-3">
+          	<form>
+		        <h2 align="center">Contactez nous !</h2>
+		          <div class="form-group">
+		            <label class="info" for="firstname">Prénom</label>
+		              <input type="text" class="form-control shadow">
+		          </div>
+		          <div class="form-group">
+		            <label for="name">Nom</label>
+		              <input type="text" class="form-control shadow">
+		          </div>
+		          <div class="form-group">
+		            <label for="Email">Email</label>
+		              <input type="Email" class="form-control shadow">
+		          </div>
+		          <div class="form-group-textarea">
+		            <label for="exampleFormControlTextarea1">Message</label>
+		            <textarea class="form-control shadow" id="exampleFormControlTextarea1" rows="3"></textarea>
+		          </div>
+		          <div class="button button_message">
+		              <button type="button" class="btn btn-secondary btn-sm">Envoyer votre message</button>
+		          </div>
+      		</form>
+          </div>         
         </div>
-      </div>
+		<div class="col-md-6">
+       		<a href="" class="legal_mention">Mentions Légales</a>                
+      	</div> 
+      </div>      	
     </footer>
 
 

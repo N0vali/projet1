@@ -235,6 +235,9 @@ form{
 }
 
 /*footer*/
+footer h2{
+	color: white;
+}
 footer img{
 	max-width: 5vw;
 	max-height: 5vh;

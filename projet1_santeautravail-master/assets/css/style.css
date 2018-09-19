@@ -113,12 +113,10 @@ nav{
 #outils h5 {
 	font-size: x-large;
 	font-family: 'Marcellus', serif;
-	font-weight: bold;
+	
 }
 .tittleoutils {
 	text-align: center;
-	font-size: xx-large;
-	font-weight: bold;
 }
 #outils .card{
 	border-radius: 1%;
@@ -140,16 +138,16 @@ nav{
     margin-left: auto;
     margin-right: auto;
     margin-top:40px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     border-radius: 100%;
 }
 .gymball
 {
-    background-color: #71d8f7;
+    background-color: #ffffff;
 }
 .waterbottle
 {
-    background-color: yellow;
+    background-color: #ffffff;
 }
 .cardPresentation 
 {
@@ -159,20 +157,16 @@ nav{
 }
 .tapisroulant
 {
-    background-color: #5dfc6f;
+    background-color: #ffffff;
 }
 .ministepper
 {
-    background-color: orange;
+    background-color: #ffffff;
 }
 .titlecard 
 {
     text-align: center;
     margin-top: 2rem;
-}
-.textoutils 
-{
-    text-align: justify;
 }
 
 /*CSS_helene*/

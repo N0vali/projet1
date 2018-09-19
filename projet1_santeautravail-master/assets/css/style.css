@@ -1,6 +1,14 @@
 
 /*CSS*/
-
+/*ligne hr*/
+hr{
+margin-top: 10%;
+border-radius:50%;
+height:4px;
+width:50%;
+background-color:#ff5a3d;
+margin-bottom: 10%;
+}
 /*background*/
 body{
 background-attachment: fixed;
@@ -11,11 +19,12 @@ background: linear-gradient(0.5turn,#FFFFFF, #FFDB99, #f69d3c);
 }
 h1{
 	margin-bottom: 10%;
-	font-family: 'Marcellus', serif;
+	font-family: 'Laila', serif;
+	color: #ff5a3d;
 	font-size: 2.5em;
 }
 h2{
-	font-family: 'Marcellus', serif;
+	font-family: 'Inknut Antiqua', serif;
 	font-size: xx-large;
 	color: #3BA878;
 	font-size: 1.7em;
@@ -65,7 +74,6 @@ nav{
 }
 #activity h2{
 	text-align: center;
-	margin-top: 15%;
 }
 #activity img {
 	max-height: 30vh; 
@@ -85,17 +93,16 @@ nav{
 }
 #activity .btn-light{
 	border-radius: 100%;
-	margin-top: 50%;
-	background-color: #F8CD24;
+	margin-top: 150px;
+	background-color: #ff9651;
 }
 #activity h4 {
 	position: absolute;
 	margin-top: 25%;
-	margin-bottom: 10%;
 	text-align: center;
 	font-family: 'Coming Soon', cursive;
 	font-size: 1.2em;
-	color: #FF9200;
+	color: #ff5a3d;
 
 }
 #activity br {

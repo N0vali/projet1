@@ -17,7 +17,7 @@ h1{
 h2{
 	font-family: 'Marcellus', serif;
 	font-size: xx-large;
-	color: #EF9F20;
+	color: #3BA878;
 	font-size: 1.7em;
 
 }
@@ -78,10 +78,14 @@ h2{
 	text-align: center;
 
 }
+#activity .modal-header img{
+	max-height: 15vh;
+	max-width: 15vw;
+}
 #activity .btn-light{
 	border-radius: 100%;
 	margin-top: 50%;
-	background-color: #FBFF4F;
+	background-color: #F8CD24;
 }
 #activity h4 {
 	position: absolute;
@@ -90,7 +94,7 @@ h2{
 	text-align: center;
 	font-family: 'Coming Soon', cursive;
 	font-size: 1.2em;
-	color: #EF9F20;
+	color: #FF9200;
 
 }
 #activity br {
@@ -98,8 +102,9 @@ h2{
 }
 
 #activity .modal-body{
-	font-size: 1.2em;
-	padding: 10%;
+	font-size: 1em;
+	Line-Height: 1;
+	padding: 5%;
 }
 
 
@@ -235,6 +240,9 @@ form{
 }
 
 /*footer*/
+footer h2{
+	color: white;
+}
 footer img{
 	max-width: 5vw;
 	max-height: 5vh;

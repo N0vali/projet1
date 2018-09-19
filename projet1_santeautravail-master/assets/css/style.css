@@ -21,7 +21,9 @@ h2{
 	font-size: 1.7em;
 
 }
-
+nav{ 
+	background-color: rgba(84,84,84,0.6);
+}
 .logo-nav{
 	margin-right: 1200px;
 	max-height: 40px;
@@ -32,7 +34,6 @@ h2{
 .pictureBanniere{
 	min-height: 75vh;
 	max-height: 75vh;
-	margin-top: 3%;
 	max-width: 125vw;
 	min-width: 125vw;
 	min-height:50vh;

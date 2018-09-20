@@ -57,7 +57,10 @@ nav{
 .espace{
 	margin-bottom: 10%;
 }
-
+.logo_pres{
+	max-width: 285px;
+	max-height: 285px;
+}
  
 /*CSS_alicia*/
 /*activites*/

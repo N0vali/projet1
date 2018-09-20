@@ -14,14 +14,14 @@ body{
 background-attachment: fixed;
 font-family: 'Alegreya Sans', sans-serif;
 font-size: x-large;
-background: linear-gradient(0.5turn,#FFFFFF, #FFDB99, #f69d3c);
+background: linear-gradient(0.5turn,#FFFFFF, #fff7db, #FFFFFF);
 
 }
 h1{
 	margin-bottom: 10%;
-	font-family: 'Laila', serif;
+	font-family: 'Marcellus', serif;
 	color: #ff5a3d;
-	font-size: 2.5em;
+	font-size: 3em;
 }
 h2{
 	font-family: 'Inknut Antiqua', serif;
@@ -87,18 +87,21 @@ nav{
 
 }
 #activity .modal-header img{
-	max-height: 15vh;
+	max-height: 30vh;
+	min-height: 30vh;
+	border: 5px solid #ff9651;
 }
-#activity .btn-light{
+#activity a{
+
 	border-radius: 100%;
 	margin-top: 150px;
-	background-color: #ff9651;
+	border: 5px solid #ff9651;
 }
 #activity h4 {
 	position: absolute;
 	margin-top: 25%;
 	text-align: center;
-	font-family: 'Coming Soon', cursive;
+	font-family: 'Marcellus', serif;
 	font-size: 1.2em;
 	color: #ff5a3d;
 
@@ -109,8 +112,16 @@ nav{
 
 #activity .modal-body{
 	font-size: 1em;
-	Line-Height: 1;
+	line-height: 1;
 	padding: 5%;
+}
+#activity .btn-secondary{
+	background-color:  #ff5a3d;
+	border: none;
+	margin-right: 40%;
+}
+#activity .close{
+	color: #ff5a3d;
 }
 
 
@@ -127,7 +138,7 @@ nav{
 }
 #outils .card{
 	border-radius: 1%;
-	background-color: rgba(255, 255, 255,0.3);
+	background-color: rgba(255, 255, 255,0.5);
 }
 .card {
     /* Add shadows to create the "card" effect */

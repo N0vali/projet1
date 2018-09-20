@@ -1,21 +1,30 @@
 
 /*CSS*/
-
+/*ligne hr*/
+hr{
+margin-top: 10%;
+border-radius:50%;
+height:4px;
+width:50%;
+background-color: #ff5a3d;
+margin-bottom: 10%;
+}
 /*background*/
 body{
 background-attachment: fixed;
 font-family: 'Alegreya Sans', sans-serif;
 font-size: x-large;
-background: linear-gradient(0.5turn,#FFFFFF, #FFDB99, #f69d3c);
+background: linear-gradient(0.5turn,#FFFFFF, #fff7db, #FFFFFF);
 
 }
 h1{
 	margin-bottom: 10%;
 	font-family: 'Marcellus', serif;
-	font-size: 2.5em;
+	color: #ff5a3d;
+	font-size: 3em;
 }
 h2{
-	font-family: 'Marcellus', serif;
+	font-family: 'Inknut Antiqua', serif;
 	font-size: xx-large;
 	color: #3BA878;
 	font-size: 1.7em;
@@ -65,11 +74,9 @@ nav{
 }
 #activity h2{
 	text-align: center;
-	margin-top: 15%;
 }
 #activity img {
 	max-height: 30vh; 
-	max-width: 30vw;
 	min-height: 200px;
 	min-width: 200px;
 	border-radius: 100%;
@@ -80,22 +87,23 @@ nav{
 
 }
 #activity .modal-header img{
-	max-height: 15vh;
-	max-width: 15vw;
+	max-height: 30vh;
+	min-height: 30vh;
+	border: 5px solid #ff9651;
 }
-#activity .btn-light{
+#activity a{
+
 	border-radius: 100%;
-	margin-top: 50%;
-	background-color: #F8CD24;
+	margin-top: 150px;
+	border: 5px solid #ff9651;
 }
 #activity h4 {
 	position: absolute;
 	margin-top: 25%;
-	margin-bottom: 10%;
 	text-align: center;
-	font-family: 'Coming Soon', cursive;
+	font-family: 'Marcellus', serif;
 	font-size: 1.2em;
-	color: #FF9200;
+	color: #ff5a3d;
 
 }
 #activity br {
@@ -104,8 +112,16 @@ nav{
 
 #activity .modal-body{
 	font-size: 1em;
-	Line-Height: 1;
+	line-height: 1;
 	padding: 5%;
+}
+#activity .btn-secondary{
+	background-color:  #ff5a3d;
+	border: none;
+	margin-right: 40%;
+}
+#activity .close{
+	color: #ff5a3d;
 }
 
 
@@ -120,7 +136,7 @@ nav{
 }
 #outils .card{
 	border-radius: 1%;
-	background-color: rgba(255, 255, 255,0.3);
+	background-color: rgba(255, 255, 255,0.5);
 }
 .card {
     /* Add shadows to create the "card" effect */

@@ -233,27 +233,35 @@ form{
 .form-group-textarea{
 	margin-bottom: 5%;
 }
+.contact_text {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
 
 /*footer*/
+footer .btn{
+	background-color: #ff5a3d;
+}
 footer h2{
 	color: white;
 }
-footer img{
-	max-width: 5vw;
-	max-height: 5vh;
-}
 
-footer a { 
+footer a{ 
 	text-align: center;
 	color: white; 
 }
-
 .card_footer{
-    background-color: #939393;
+    background-color: rgba(84,84,84);
 	margin-top: 3%;
 }
-
 .legal_mention{
 	color: white;
 }
-
+footer i{
+	margin-top: 15%;
+}
+footer .social_logo .fab{
+	width:30vw;
+	max-height:35vw;	
+}

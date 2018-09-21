@@ -61,6 +61,22 @@ nav{
 	max-width: 285px;
 	max-height: 285px;
 }
+@media (min-width: 576px) {
+	.logo_pres{
+		margin-left: 25%;
+	}
+}
+@media (min-width: 375px) {
+	.logo_pres{
+		margin-left: 15%;
+	}
+}
+@media (min-width: 768px) { 
+	.logo_pres{
+		margin-left: 30%;
+	}
+}
+ }
  
 /*CSS_alicia*/
 /*activites*/
